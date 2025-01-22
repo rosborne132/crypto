@@ -100,11 +100,8 @@ int main() {
     printf("Decrypted: %s\n", decrypted);
 
     // Check if decryption was successful
-    if (strcmp(input, decrypted) == 0) {
-        printf("Decryption successful!\n");
-    } else {
-        printf("Decryption failed!\n");
-    }
+    if (strcmp(input, decrypted) == 0) printf("Decryption successful!\n");
+    else printf("Decryption failed!\n");
 
     return 0;
 }
