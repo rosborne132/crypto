@@ -82,7 +82,6 @@ char* process_string(const char *input, const char *rotor, char (*process)(const
     return output;
 }
 
-
 int main() {
     // Initialize variables
     const char *rotors[] = ROTORS;
